@@ -318,7 +318,7 @@ This makes the underlying digital circuit visible in the Verilog implementation 
 
 Each major component was tested independently before integration into the complete ALU.
 
-The project contains or was developed with testbenches for:
+The project contains testbenches for:
 
 - 1-bit full adder
 - 32-bit adder/subtractor
@@ -361,14 +361,12 @@ Run:
 vvp alu_sim
 ```
 
-If the testbench is stored separately:
+For testbenches:
 
 ```bash
 iverilog -o alu_sim src/*.v tb/alu_tb.v
 vvp alu_sim
 ```
-
-GTKWave can optionally be used for waveform inspection if the testbench generates a VCD file.
 
 For example:
 
@@ -406,8 +404,6 @@ verilog-32bit-alu/
     ├── mux_tb.v
     └── alu_tb.v
 ```
-
-The original implementation may also be kept as a single Verilog source file if preserving the coursework structure is preferred.
 
 ## Design Notes
 
