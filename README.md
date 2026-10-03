@@ -385,7 +385,7 @@ Then:
 gtkwave alu.vcd
 ```
 
-## Suggested Repository Structure
+## Repository Structure
 
 ```text
 verilog-32bit-alu/
