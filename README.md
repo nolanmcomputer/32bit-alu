@@ -4,7 +4,7 @@ A 32-bit Arithmetic Logic Unit (ALU) implemented in Verilog using primarily **ga
 
 The project builds the ALU from smaller reusable components, including a 1-bit full adder, 32-bit ripple-carry adder/subtractor, logic unit, multiplexers, and shifter. With the exception of the shifter, the datapath is implemented primarily using Verilog gate primitives rather than behavioral arithmetic or logic expressions.
 
-This project was originally developed as a digital logic / computer architecture coursework project and was later cleaned up for use as a portfolio example.
+This project was originally developed as a computer architecture coursework project and was later cleaned up for use as a portfolio example.
 
 ## Features
 
